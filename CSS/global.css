@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+@import url(./header.css);
+@import url(./main.css);
+@import url(./footer.css);
 
 * {
     margin: 0;

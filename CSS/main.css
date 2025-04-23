@@ -1,0 +1,11 @@
+.mainH1 {
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 10;
+    font-size: 70px;
+    color: rgb(27, 82, 145);
+    text-shadow: 
+    -1px -1px 0 #0b0449,  
+     1px -1px 0 #0b0449,
+    -1px  1px 0 #0b0449,
+     1px  1px 0 #0b0449; 
+}

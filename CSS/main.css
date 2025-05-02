@@ -1,11 +1,42 @@
-.mainH1 {
-    
-    font-weight: 700;
-    font-size: 70px;
-    color: rgb(27, 82, 145);
-    text-shadow: 
-    -1px -1px 0 #0b0449,  
-     1px -1px 0 #0b0449,
-    -1px  1px 0 #0b0449,
-     1px  1px 0 #0b0449; 
+.maisImg {
+    max-width: 450px;
+}
+
+.divFigure {
+    flex-direction: row;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.sectionImg {
+    max-width: 170px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.sectionDiv {
+    background-color: rgba(210, 231, 224, 0.918);
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid rgb(27, 145, 105);
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+    font-size: 24px;
+}
+
+.sectionDiv:hover {
+    transform: scale(1.1);
 }

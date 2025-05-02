@@ -1,4 +1,17 @@
-.footerImg {
-    max-height: 200px;
-    width: 100vw;
+.feedback {
+    background-color: rgb(8, 64, 168);
+    color: white;
+    max-width: 200px;
+    font-size: 40px;
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.feedback:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    margin: 30px 30px;
 }

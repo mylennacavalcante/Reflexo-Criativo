@@ -1,5 +1,5 @@
-.maisImg {
-    max-width: 450px;
+.imgCenter{
+    max-width: 500px;
 }
 
 .divFigure {
@@ -9,8 +9,8 @@
 }
 
 .sectionImg {
-    max-width: 170px;
-    margin-bottom: 20px;
+    max-width: 150px;
+    
     background-color: aliceblue;
     padding: 10px;
     border-radius: 10px;

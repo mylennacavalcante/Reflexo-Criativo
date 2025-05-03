@@ -1,5 +1,7 @@
 .logo {
-    max-width: 40px;
+    width: 100%;
+    max-width: 5vw;
+    height: auto;
     border-radius: 100px;
     border: 3px solid rgb(8, 64, 168);
 }
@@ -9,7 +11,7 @@
 }
 
 .headerH2 {
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 .menu {
@@ -18,18 +20,15 @@
 }
 
 ul, nav {
-    gap: 50px;
+    gap: 2rem;
 }
 
 header {
     justify-content: space-around;
     align-items: center;
-    margin-top: 10px;
-}
-
-header {
-    border-radius: 100px;
-    background-color: rgba(130, 197, 192, 0.747);
+    margin-top: 5px;
+    padding: 5px;
+    
 }
 
 header, .headerDiv, nav, ul{
@@ -58,4 +57,37 @@ button {
 
 button:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    nav {
+    align-items: center;
+    gap: 1rem;
+    }
+  
+    .headerDiv {
+    gap: 0.5rem;
+    }
+  
+    header {
+      gap: 1rem;
+    }
+    
+    button {
+        font-size: 100%;
+    }
+
+    .imgHeader {
+        
+        width: 80%;
+    }
+
+    .headerH2, .logo {
+    font-size: 140%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
 }

@@ -12,9 +12,9 @@
 }
 
 body {
-    background-color: aquamarine;
     background-image: url('../img/fundo2.png');
     background-repeat: no-repeat;
-    background-size: 100vw 120vh;
-    font-size: 14px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }

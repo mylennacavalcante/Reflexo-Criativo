@@ -2,6 +2,7 @@
     width: 100%;
     max-width: 50vw;
     height: auto;
+    margin-bottom: 1rem;
   }
 
 .divFigure {
@@ -15,7 +16,7 @@
     max-width: 13vw;
     height: auto;
     background-color: aliceblue;
-    padding: 10px;
+    margin: 1rem;
     border-radius: 10px;
 }
 
@@ -23,19 +24,19 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
   }
 
 .sectionDiv {
     background-color: rgba(210, 231, 224, 0.918);
-    padding: 10px;
+    
     border-radius: 20px;
     border: 2px solid rgb(27, 145, 105);
     text-align: center;
 }
 
 h1 {
-    padding: 10px;
+    padding:1rem;
     font-size: 24px;
 }
 
@@ -47,6 +48,15 @@ h1 {
     h1 {
         font-size: 100%;
     }
+}
 
-    sec
+@media (max-width: 480px) {
+    h1 {
+        
+        font-size: 100%;
+    }
+
+    .sectionImg {
+        min-width: 150px;
+    }
 }

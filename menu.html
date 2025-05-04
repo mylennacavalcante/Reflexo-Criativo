@@ -7,33 +7,48 @@
     <link rel="stylesheet" href="./CSS/global.css">
     <style>
         
-        .menuOculto{
+        .barrasMenu{
             background: rgba(7, 185, 216, 0.3);
             backdrop-filter: blur(10px);
-            max-width: 100px;
-            padding: 15px;
-            border-radius: 5px;
+            max-width: 150px;
+            border-bottom-left-radius: 5px;
+            padding: 7px;
             flex-direction: column;
             gap: 1rem;
             text-decoration: none;
             font-weight: 500;
+            text-align: right;
             border: 1px solid rgba(7, 185, 216, 0.808);
         }
 
-        
+        .divLinkOculto {  
+            padding: 8px;         
+            border-bottom: 3px solid rgba(7, 185, 216, 0.808);
+        }
 
         .linkOculto:hover {
-            text-decoration: underline;
+            text-decoration: underline; 
+        }
+
+        .divLinkOculto:hover {
             transform: scale(1.1);
         }
     </style>
 </head>
 <body>
-    <div class="menuOculto">
+    <div class="barrasMenu">
+        <div class="divLinkOculto">
             <a class="linkOculto"  href="">Início</a>
-            <a class="linkOculto"  href="">Informação</a>
-            <a class="linkOculto"  href="">Dúvidas</a>
-            <a class="linkOculto"  href="">Login</a>
+        </div>
+            <div class="divLinkOculto">
+                <a class="linkOculto"  href="">Informação</a>
+            </div>
+            <div class="divLinkOculto"> 
+                <a class="linkOculto"  href="">Dúvidas</a>
+            </div>
+            <div class="divLinkOculto">
+                <a class="linkOculto"  href="">Login</a>
+            </div>           
     </div>
 </body>
 </html>

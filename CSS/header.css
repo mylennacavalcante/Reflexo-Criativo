@@ -3,8 +3,7 @@
     max-width: 5vw;
     height: auto;
     border-radius: 100px;
-    border: 3px solid rgb(8, 64, 168);
-    border: 1px solid rgba(7, 185, 216, 0.808);
+    border: 2px solid rgba(8, 64, 168, 0.829);
 }
 
 .imgHeader{
@@ -62,13 +61,42 @@ button {
     transform: scale(1.3);
 }
 
-.menuImg {
+.barras {
     display: none;
 }
 
-.menuOculto {
-    display: none;
+.barrasMenu {
+    display: non;
 }
+
+
+    .barrasMenu {
+        background: rgba(7, 185, 216, 0.3);
+        backdrop-filter: blur(10px);
+        max-width: 150px;
+        border-bottom-left-radius: 5px;
+        padding: 7px;
+        flex-direction: column;
+        gap: 1rem;
+        text-decoration: none;
+        font-weight: 500;
+        text-align: right;
+        border: 1px solid rgba(7, 185, 216, 0.808);
+    }
+
+    .divLinkOculto {  
+        padding: 8px;         
+        border-bottom: 3px solid rgba(7, 185, 216, 0.808);
+    }
+
+    .linkOculto:hover {
+        text-decoration: underline; 
+    }
+
+    .divLinkOculto:hover {
+        transform: scale(1.1);
+    }
+
 
 button:hover {
     transform: scale(1.1);
@@ -76,7 +104,6 @@ button:hover {
 
 @media (max-width: 768px) {
     nav {
-    align-items: center;
     gap: 1rem;
     }
   
@@ -86,6 +113,9 @@ button:hover {
   
     header {
       gap: 1rem;
+      width: 100vw;
+      border-radius: 0;
+      height: 7vh;
     }
     
     button {
@@ -103,12 +133,22 @@ button:hover {
 
 }
 
+@media (max-width: 580px) {
+    .headerH2{
+    font-size: 100%;
+    }
+
+    .logo {
+        min-width: 40px;
+    }
+}
+
 @media (max-width: 480px) {
     button, nav{
         display: none;
     }
 
-    .menuImg {
+    .barras {
         display: block;
     }
 
@@ -118,6 +158,13 @@ button:hover {
 
     .logo {
         width: 200%;
+    }
+
+    header {
+        width: 100vw;
+        border-radius: 0;
+        height: 7vh;
+        justify-content: space-between;
     }
 
 }

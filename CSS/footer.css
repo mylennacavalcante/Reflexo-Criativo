@@ -2,7 +2,7 @@
     background-color: rgb(8, 64, 168);
     color: white;
     max-width: 200px;
-    font-size: 40px;
+    font-size: 2em;
     text-align: center;
     margin: auto;
     border-radius: 50px;
@@ -20,11 +20,13 @@ footer {
     .feedback {
         font-size: 140%;
         max-width: 20%;
+        min-width: 150px;
     }
 }
 
 @media (max-width: 480px) {
     .feedback {
-        font-size: 130%;
+        font-size: 90%;
+        min-width: 70px;
     }
 }

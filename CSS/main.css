@@ -48,6 +48,10 @@ h1 {
     h1 {
         font-size: 100%;
     }
+
+    .sectionImg {
+        min-width: 150px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -58,5 +62,9 @@ h1 {
 
     .sectionImg {
         min-width: 150px;
+    }
+
+    .logo {
+        min-width: 30px;
     }
 }

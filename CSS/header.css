@@ -24,6 +24,11 @@ nav {
     gap: 2rem;
 }
 
+
+.registroConta {
+    display: none;
+}
+
 header {
     justify-content: space-around;
     align-items: center;

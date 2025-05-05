@@ -102,6 +102,7 @@ button:hover {
     transform: scale(1.1);
 }
 
+<<<<<<< HEAD
 @media (max-width: 768px) {
     nav {
     gap: 1rem;
@@ -167,4 +168,8 @@ button:hover {
         justify-content: space-between;
     }
 
+=======
+.registro-conta {
+    display: none;
+>>>>>>> b7c3979759ba30f9fc3287eabb2cbb3e9dbd2cb0
 }

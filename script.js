@@ -1,3 +1,6 @@
-const barras = document.getElementsByClassName('barras');
-const caixaLogin = document.getElementById('caixaLogin');
-const fecharLogin = document.getElementById('fecharLogin');
+const barras = document.querySelector('.barras');
+const barrasMenu = document.getElementById('barrasMenu');
+
+barras.addEventListener("click", () => {
+    barrasMenu.classList.toggle("barrasOculto")
+})

@@ -65,12 +65,12 @@ button {
     display: none;
 }
 
-.barrasMenu {
+.barrasOculto {
     display: none;
 }
 
 
-    .barrasMenu {
+    #barrasMenu {
         background: rgba(7, 185, 216, 0.3);
         backdrop-filter: blur(10px);
         max-width: 150px;

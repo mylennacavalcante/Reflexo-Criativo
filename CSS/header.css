@@ -24,9 +24,74 @@ nav {
     gap: 2rem;
 }
 
+.fechar {
+    position: fixed;
+    top: 15%;
+    left: 87%;
+    font-size: 80%;
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: rgb(207, 8, 8);
+}
+
+.inputLogin {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    border-radius: 10px;
+}
+
+.googleBtn, .logoLogin, h5 {
+    margin-bottom: 20px;
+}
+
+input, h5 {
+    margin-top: 20px;
+}
+
+.iconeGoogle {
+    max-width: 20px;
+    
+}
+
+.googleBtn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.logoLogin {
+    max-width: 5rem;
+    border: 2px solid rgba(8, 64, 168, 0.829);
+    border-radius: 100px;
+}
+
+.ocultoLogin {
+    display: non;
+}
+
+.caixaLogin {
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(200, 240, 247, 0.808);
+}
+
+.contaLogin {
+    z-index: 5;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
 
 .registroConta {
-    display: none;
+    display: non;
 }
 
 header {
@@ -70,6 +135,8 @@ button {
     transform: scale(1.3);
 }
 
+
+
 .barras {
     display: none;
 }
@@ -80,6 +147,8 @@ button {
 
 
 #barrasMenu {
+    position: fixed;
+    top: 8.5%;
     background: rgba(7, 185, 216, 0.3);
     backdrop-filter: blur(10px);
     max-width: 150px;
@@ -89,12 +158,11 @@ button {
     gap: 1rem;
     text-decoration: none;
     font-weight: 500;
-    text-align: right;
     border: 1px solid rgba(7, 185, 216, 0.808);
 }
 
 .divLinkOculto {
-    padding: 8px;
+    padding: 0px 20px 10px 10px;
     border-bottom: 3px solid rgba(7, 185, 216, 0.808);
 }
 
@@ -160,6 +228,10 @@ button:hover {
         display: none;
     }
 
+    .headerDiv {
+        flex-direction: row-reverse;
+    }
+
     .barras {
         display: block;
     }
@@ -177,9 +249,10 @@ button:hover {
         border-radius: 0;
         height: 7vh;
         justify-content: space-between;
+        flex-direction: row-reverse;
     }
 
     .registro-conta {
-        display: none;
+        display: non;
     }
 }

@@ -1,11 +1,8 @@
 .fechar {
-    position: fixed;
-    top: 15%;
-    left: 87%;
-    font-size: 80%;
-    padding: 3px 7px;
-    border-radius: 5px;
-    background-color: rgb(207, 8, 8);
+    position: absolute;
+    left: 91%;
+    top: 3%;
+    max-width: 25px;
 }
 
 .inputLogin {
@@ -15,10 +12,17 @@
     border-radius: 10px;
 }
 
-.redefinirSenha{
+.redefinirSenha, .criarConta{
     text-align: right;
     font-size: 12px;
     text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0px 5px;
 }
 
 .googleBtn, .logoLogin, h5 {
@@ -48,10 +52,11 @@ input, h5 {
 }
 
 .ocultoLogin {
-    display: non;
+    display: none;
 }
 
 .caixaLogin {
+    position: relative;
     border: 1px solid rgba(7, 185, 216, 0.808);
     padding: 1rem;
     border-radius: 15px;
@@ -60,7 +65,7 @@ input, h5 {
     background-color: rgba(200, 240, 247, 0.808);
 }
 
-.contaLogin {
+#contaLogin {
     z-index: 5;
     margin: auto;
     height: 100vh;
@@ -68,4 +73,12 @@ input, h5 {
     display: flex;
     justify-content: center;
     backdrop-filter: blur(10px);
+}
+
+.fechar:hover {
+    transform: scale(1.05);
+}
+
+.googleBtn:hover {
+    transform: scale(1.02);
 }

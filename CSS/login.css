@@ -1,0 +1,71 @@
+.fechar {
+    position: fixed;
+    top: 15%;
+    left: 87%;
+    font-size: 80%;
+    padding: 3px 7px;
+    border-radius: 5px;
+    background-color: rgb(207, 8, 8);
+}
+
+.inputLogin {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    border-radius: 10px;
+}
+
+.redefinirSenha{
+    text-align: right;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.googleBtn, .logoLogin, h5 {
+    margin-bottom: 20px;
+}
+
+input, h5 {
+    margin-top: 20px;
+}
+
+.iconeGoogle {
+    max-width: 20px;
+    
+}
+
+.googleBtn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.logoLogin {
+    max-width: 5rem;
+    border: 2px solid rgba(8, 64, 168, 0.829);
+    border-radius: 100px;
+}
+
+.ocultoLogin {
+    display: non;
+}
+
+.caixaLogin {
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(200, 240, 247, 0.808);
+}
+
+.contaLogin {
+    z-index: 5;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}

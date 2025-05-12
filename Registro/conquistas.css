@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 .logo {
     width: 100%;
     max-width: 5vw;
@@ -139,8 +140,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    color: #333;
+    font-family: "Winky Sans", sans-serif;
+    color: #020082;
 }
 
 .container {

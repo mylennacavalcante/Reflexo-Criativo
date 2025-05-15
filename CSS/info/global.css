@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
-@import url(./header.css);
-@import url(./main.css);
-@import url(./footer.css);
-@import url(./login.css);
-@import url(./menu\ oculto.css);
-
+@import url(./header-info.css);
+@import url(./main-info.css);
+@import url(/CSS/menu\ oculto.css);
 
 * {
+    font-family: "Winky Sans", sans-serif;
     margin: 0;
     padding: 0;
     font-family: "Winky Sans", sans-serif;
@@ -16,14 +13,18 @@
 }
 
 body {
-    background-image: url('../img/fundo2.png');
+    background-image: url('/img/fundo2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    
+    font-size: 20px;
 }
 
-a {    
-    text-decoration: none;  
+a {
+    text-decoration: none;
+}
+
+.barras {
+    display: block;
 }

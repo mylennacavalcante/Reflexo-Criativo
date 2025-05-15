@@ -1,0 +1,87 @@
+.fechar {
+    position: absolute;
+    left: 91%;
+    top: 3%;
+    max-width: 25px;
+    cursor: pointer;
+}
+
+.inputLogin {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    border-radius: 10px;
+}
+
+.redefinirSenha, .criarConta{
+    text-align: right;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0px 5px;
+}
+
+.googleBtn, .logoLogin, h5 {
+    margin-bottom: 20px;
+}
+
+input, h5 {
+    margin-top: 20px;
+}
+
+.iconeGoogle {
+    max-width: 20px;
+    
+}
+
+.googleBtn {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.logoLogin {
+    max-width: 5rem;
+    border: 2px solid rgba(8, 64, 168, 0.829);
+    border-radius: 100px;
+}
+
+.ocultoLogin {
+    display: none;
+}
+
+.caixaLogin {
+    position: relative;
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    padding: 1rem;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 10;
+    background-color: rgba(200, 240, 247, 0.808);
+}
+
+.contaLogin {
+    position: absolute;
+    z-index: 5;
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.fechar:hover {
+    transform: scale(1.05);
+}
+
+.googleBtn:hover {
+    transform: scale(1.02);
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 .logo {
     width: 100%;
     max-width: 5vw;
@@ -131,4 +132,77 @@ button {
         justify-content: space-between;
         flex-direction: row-reverse;
     }
+}
+
+body {
+    background-image:url(fundo2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: "Winky Sans", sans-serif;
+    color: #020082;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "Sour Gummy", sans-serif;
+    color: #020082;
+    backdrop-filter: blur(10px);
+    background-color: rgba(8, 64, 168, 0.061);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.jogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.jogos-item {
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.jogos-item:hover {
+    transform:translate(10px);
+    transition: 0.3s;
+}
+
+p {
+    font-family: "DynaPuff", system-ui;
+    color: rgba(51, 51, 60, 0.782);
+    font-size: 30px;
+}
+
+.jogos-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.cores {
+    background: #ddd;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.ranking-color {
+    height: 16px;
+    background-color: orange;
+    border-radius: 20px;
 }

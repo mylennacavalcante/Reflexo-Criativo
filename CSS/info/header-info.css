@@ -1,0 +1,45 @@
+.headerDiv, .divLogo  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.headerDiv{
+    justify-content: space-around;
+}
+
+.icon {
+    max-width: 35px;
+}
+
+header {
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(7, 185, 216, 0.575);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(7, 185, 216, 0.808);
+    padding: 5px;
+    margin: auto;
+}
+
+.logo {
+    width: 100%;
+    width: 4vw;
+    height: auto;
+    border-radius: 100px;
+    border: 2px solid rgba(8, 64, 168, 0.829);
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.barras {
+    display: bloc;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+

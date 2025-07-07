@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url('../img/fundo2.png');
+    background-image: url('https://res.cloudinary.com/dyjrn5gjk/image/upload/v1748442107/fundo2_vcquhu.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
